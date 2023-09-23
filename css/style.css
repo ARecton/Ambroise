@@ -148,6 +148,8 @@ span.navbar-text {
 	position: relative;
 	background-color: transparent;
 	transition: 0.3s ease-in-out;
+  border: none;
+}
 }
 .navbar-text button span {
 	z-index: 1;
@@ -274,7 +276,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner img {
     animation: updown 3s linear infinite;
-    border-radius: 220px;
+    border-radius: 350px;
 }
 @keyframes updown {
     0% {
@@ -296,7 +298,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: relative;
 }
 .skill-bx {
-    background: #151515;
+    background: #181818;
     border-radius: 64px;
     text-align: center;
     padding: 60px 50px;
